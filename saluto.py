@@ -1,3 +1,5 @@
 #saluto.py 
 
-print ("Ciao, sono Filippo Martino")
+nome = "Filippo Martino"
+print ("Ciao, mi chiamo " nome)
+
