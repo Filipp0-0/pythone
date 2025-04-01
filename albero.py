@@ -6,13 +6,14 @@
 ampiezza = int(input("Inserisci l'ampiezza della base dell'albero: "))
 carattere = input("Inserisci il carattere da utilizzare: ")
 
+
 if ampiezza % 2 == 0:
     ampiezza += 1
 
 
-for i in range(1, ampiezza + 1, 2):
+i = 1
+while i <= ampiezza:
     spazi = (ampiezza - i) // 2
     print(" " * spazi + carattere * i)
+    i += 2  
 
-# tronco_spazi = (ampiezza - 1) // 2
-# print(" " * tronco_spazi + carattere)
