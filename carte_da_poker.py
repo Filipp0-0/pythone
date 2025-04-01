@@ -4,7 +4,7 @@
 solo_byte =(b'\xe2\x99\xa1' +
             b'\xe2\x99\xa2' +
             b'\xe2\x99\xa7' +
-            b'\xe2\x99\xa4')
+            b'\xe2\x99\xa4' )
             
 stringa = solo_byte.decode()
 print(stringa)
