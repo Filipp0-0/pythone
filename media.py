@@ -24,6 +24,3 @@ while numero != "exit":
 if contatore > 0:
     media = somma / contatore
     print("La media dei valori inseriti è:", media)
-
-else:
-    print("Nessun valore numerico inserito.")
