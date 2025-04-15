@@ -16,7 +16,9 @@ class Student:
     def getTotalScore(self):
         return self._score
         
-    def getAverageScore(self):
+    def getAverageScore(self): 
+        raise ValueError (f"Lo studente {self._nome} {self._cognome}" +
+                          "non ha sostenuto prove " )
         return self._score / self._nOfQuiz 
     
 
